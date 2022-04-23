@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/sfondo4"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/punteggio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/punteggio"
+        android:textSize="18sp"
+
+        android:textColor="@color/white"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/pausaButton"
+        android:layout_width="59dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#ff3305"
+        android:onClick="pausa"
+        android:text="| |"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/inizio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inizia_click"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:typeface="monospace"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/nave"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/naveprova"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/rosa"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/rosa"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/giallo"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/giallo"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/nemico2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/nemico2"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/nemici"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/nemici"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/prova"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars"
+            tools:ignore="ContentDescription" />
+
+
+
+        <ImageView
+            android:id="@+id/box2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@drawable/box2prova"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/box1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@drawable/box1prova"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/gucciProva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@drawable/guccibananaprova"
+            tools:ignore="ContentDescription" />
+
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

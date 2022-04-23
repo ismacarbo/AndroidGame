@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inizio"
+    android:orientation="vertical"
+    android:background="@drawable/sfondo4"
+    android:gravity="center">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eating whale!"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:typeface="monospace"
+        tools:ignore="HardcodedText,RtlSymmetry" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginTop="20dp">
+
+        <TableRow tools:ignore="ExtraText"
+            android:gravity="center_vertical"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/giallo"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/point_giallo"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:paddingLeft="10dp"
+                android:typeface="monospace"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+        </TableRow>
+
+
+        <TableRow tools:ignore="ExtraText"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/rosa"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/point_rosa"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:paddingLeft="10dp"
+                android:typeface="monospace"
+                tools:ignore="RtlHardcoded,RtlSymmetry"/>
+        </TableRow>
+
+        <TableRow tools:ignore="ExtraText"
+            android:gravity="center_vertical"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/nemico2"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nemico2"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:paddingLeft="10dp"
+                android:typeface="monospace"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+        </TableRow>
+
+        <TableRow tools:ignore="ExtraText"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/nemici"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/point_nemici"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:paddingLeft="10dp"
+                android:typeface="monospace"
+                tools:ignore="RtlHardcoded,RtlSymmetry"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginTop="1dp">
+
+    <Button
+        android:id="@+id/inizioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/button_start"
+        android:textSize="20sp"
+        android:backgroundTint="#db402c"
+        android:onClick="inizioMetodo"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_NegozioHome"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#db402c"
+        android:onClick="negozio"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PERSONALIZZA"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#db402c"
+        android:onClick="personalizza1"/>
+
+    <Button
+        android:id="@+id/manda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONDIVIDI"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#db402c"
+        android:onClick="invia"/>
+
+
+        <Button
+            android:id="@+id/descrizione"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESCRIZIONE"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#db402c"
+            android:onClick="descrivi"/>
+
+    </TableLayout>
+
+
+</LinearLayout>
+

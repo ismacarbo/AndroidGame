@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Risultato"
+    android:orientation="vertical"
+    android:background="@drawable/sfondo4"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_over1"
+        android:typeface="monospace"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/punteggioNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numero"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/punteggioMassimo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/punteggio_massimo"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"/>
+
+
+    <TextView
+        android:id="@+id/monete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monete"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/moneteMassime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monete_Massime"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_diNuovo"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#db402c"
+        android:onClick="Provadinuovo"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_negozio"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#db402c"
+        android:onClick="negozioProva"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_home"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#db402c"
+        android:onClick="Home"/>
+
+</LinearLayout>

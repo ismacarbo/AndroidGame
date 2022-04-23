@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SPERIAMO</string>
+    <string name="point_rosa">30 punti</string>
+    <string name="point_giallo">10 punti</string>
+    <string name="point_nemici">Game over</string>
+
+
+    <string name="button_start">INIZIA</string>
+    <string name="inizia_click">Premi per iniziare</string>
+    <string name="punteggio">Punteggio: %d</string>
+
+
+    <string name="game_over1">HAI PERSO :(</string>
+    <string name="nemico2">-50 punti</string>
+    <string name="numero">%d</string>
+    <string name="monete">Monete Ottenute: %d</string>
+    <string name="monete_Massime">Monete Massime: %d</string>
+    <string name="punteggio_massimo">Punteggio massimo: %d</string>
+    <string name="button_diNuovo">PROVA DI NUOVO</string>
+    <string name="button_home">HOME</string>
+    <string name="button_negozio">NEGOZIO/PERSONALIZZA</string>
+    <string name="button_NegozioHome">NEGOZIO</string>
+</resources>
